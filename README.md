@@ -7,7 +7,7 @@ Mlab.
 Heroku/AppEngine.
 
 
--Lundi 25 mars après-midi ( sur place )
+-Lundi 25 mars après-midi (sur place)
 
 Déploiement continu avec Travis.
 

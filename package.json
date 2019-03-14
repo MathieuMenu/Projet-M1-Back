@@ -1,0 +1,22 @@
+{
+  "name": "projet-m1-back",
+  "version": "1.0.0",
+  "description": "Utilisation de Nodejs pour le Back.\r Angular pour le front.\r Google maps platform (Maps/Places/Routes)\r Mlab.\r Heroku/AppEngine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathieuMenu/Projet-M1-Back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathieuMenu/Projet-M1-Back/issues"
+  },
+  "homepage": "https://github.com/MathieuMenu/Projet-M1-Back#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "Utilisation de Nodejs pour le Back.\r Angular pour le front.\r Google maps platform (Maps/Places/Routes)\r Mlab.\r Heroku/AppEngine.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   },
   "engines": {
     "node": "10.x"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
   }
 }

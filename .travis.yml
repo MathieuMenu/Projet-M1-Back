@@ -1,10 +1,9 @@
 language: node_js
 node_js:
   - "10"
+  - node
 deploy:
   provider: heroku
 env:
   global:
     secure: qv5hNW0NMg/WkgiqgCD2afJSJzigqLosCYZ3Rqe8WC7JLP3An8Alv3EJTtsF60hMe06bT89epLILZagnY/KbfYv51gdoJj8MnQrZgFxjyw2IfJwanYOXTkqBY1WAmw4/C5tJBS+7S1Jfv3RXGE07fPhTGlDYA17J0QAH4SGobl7Emn1NfMA/5vQJJegJSNb0FugTzrQBcNlt5JlzRxLgoFhbNxKSzRycZJU7ucJXilJih6pfSSNPuMpF7shvBXWo3QMdsdSrWlexXVRpucXCtT1pskFloB/5kXXHzr6Ipg0IewrC+b7sJoy/m7CwEpfdXrghLTW7fYWgok4R0fcLLNx/Xi31ZRXEaEWZOriXxj/drcUMDYPAcPemZZGBALNME0a8OMU5Z8pohz3wOLsKCkgFRgLxawnspFwNgqOg4zlXiCEIiHR/fiLAjtYMHYCMIW4o/OlJONRhPCYMvNv/lk+4vBRHeG+4tSoyhCsyP57AY6Sx6+PgxOiwY6Ia2EI/debtbWuQJth06h1n4Ml0byQ3EmcyyVu+ql5jK28O0O9IvmIUpLmod1DcAJghhVkM2k+JJu9K68ft/Ghg4U88rkco9H8e5Z/u5PoW2Vr63NRLqNmLtqLFzS6v/5P1mx+0f2bcDGAsPvs+HAa21QTgdbvLkaiex4PP2Coa3g/o/6Y=
-script:
-  - node index.js

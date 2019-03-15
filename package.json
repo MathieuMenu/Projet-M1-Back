@@ -21,7 +21,7 @@
     "express": "^4.16.4"
   },
   "engines": {
-    "node": "10.x"
+    "node": "10.13.0"
   },
   "devDependencies": {
     "jest": "^24.5.0"

@@ -7,7 +7,7 @@ Mlab.
 Heroku/AppEngine.
 
 
--Lundi 25 mars après-midi (sur place)
+# -Lundi 25 mars après-midi (sur place)
 
 Déploiement continu avec Travis.
 
@@ -19,19 +19,19 @@ Bar / Cinéma / Café / Musée / Monument / Spectacle / Hôtel ...
 
 Test unitaires.
 
--Mardi 23 avril ( à distance )
+# -Mardi 23 avril ( à distance )
 
 Mise en place de l'authentification Google.
 
 Test unitaires.
 
--Jeudi 23 Mai ( à distance )
+# -Jeudi 23 Mai ( à distance )
 
 L'utilisateur séléctionne un lieu / emplacement et peut l'ajouter à son panier d'activités(Mlab).
 
 Test unitaires.
 
--Vendredi 21 Juin ( sur place)
+# -Vendredi 21 Juin ( sur place)
 
 Création du calendrier en fonction du choix d'activités de l'utilisateur.
 

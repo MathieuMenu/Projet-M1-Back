@@ -25,6 +25,8 @@ Mise en place de l'authentification Google.
 
 Test unitaires.
 
+Vidéo : https://www.youtube.com/watch?v=_Am436ZqMvk
+
 # -Jeudi 23 Mai ( à distance )
 
 L'utilisateur séléctionne un lieu / emplacement et peut l'ajouter à son panier d'activités(Mlab).

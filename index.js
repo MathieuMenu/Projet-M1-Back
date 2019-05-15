@@ -44,9 +44,9 @@ app.get('/', function (req,res){
 	res.send('Hello World!');
 });
 
-app.get('/connected', function (req,res){
-	if(db){
-		res.send(process.env.MONGODB);
+app.get('/test', function (req,res){
+	if(db != null){
+		res.send('On est co !');
 	}
 	else{
 		res.send('Ah bah non ...');

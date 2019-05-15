@@ -3,7 +3,7 @@ const path = require("path")
 const bodyParser = require("body-parser")
 const mongo = require("mongoose")
 
-var db = mongo.connect(process.env.mongodb, function(err, response){
+var db = mongo.connect(process.env.MONGODB, function(err, response){
 	if(err){ console.log(err); }
 	else{ console.log('Connected to ' + db, ' + ', response); }
 });
@@ -42,6 +42,16 @@ var model = mongo.model('locations',LocationsSchema,'locations')
 
 app.get('/', function (req,res){
 	res.send('Hello World!');
+});
+
+app.get('/connected', function (req,res){
+	if(db){
+		res.send('On est connecté !');
+	}
+	else{
+		res.send('Ah bah non ...');
+	}
+	
 });
 
 app.post("/api/SaveLocation", function(req,res){

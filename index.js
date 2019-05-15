@@ -46,7 +46,7 @@ app.get('/', function (req,res){
 
 app.get('/connected', function (req,res){
 	if(db){
-		res.send('On est connecté !');
+		res.send(db);
 	}
 	else{
 		res.send('Ah bah non ...');

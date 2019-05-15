@@ -44,16 +44,6 @@ app.get('/', function (req,res){
 	res.send('Hello World!');
 });
 
-app.get('/test', function (req,res){
-	if(db != null){
-		res.send('On est co !');
-	}
-	else{
-		res.send('Ah bah non ...');
-	}
-	
-});
-
 app.post("/api/SaveLocation", function(req,res){
 	var mod = new model(req.body);
 	mod.save(function(err,data){

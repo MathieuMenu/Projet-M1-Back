@@ -68,7 +68,7 @@ app.get("/api/getLocations",function(req,res){
 })
 
 app.get("/api/getLocations/:email",function(req,res){
-	model.find({ email: email },function(err,data){
+	model.find({ "email": email },function(err,data){
 		if(err){
 			res.send(err);
 		}

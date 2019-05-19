@@ -67,6 +67,17 @@ app.get("/api/getLocations",function(req,res){
 	});
 })
 
+app.get("/api/getLocations/:email",function(req,res){
+	model.find({ email: email },function(err,data){
+		if(err){
+			res.send(err);
+		}
+		else{
+			res.send(data);
+		}
+	});
+})
+
 var port = process.env.PORT || 8080;
 
 app.listen(port, function() {

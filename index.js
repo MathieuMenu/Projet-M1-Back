@@ -78,6 +78,17 @@ app.get("/api/getLocationsByEmail",function(req,res){
 	});
 })
 
+app.post("/api/deleteLocationsById", function(req,res){
+	model.remove({ _id: req.query.id }, function(err) {
+		if(err){
+			res.send(err);
+		}
+		else{
+			res.send({data:"Cela a bin été supprimé"});
+		}
+	})
+})
+
 var port = process.env.PORT || 8080;
 
 app.listen(port, function() {

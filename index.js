@@ -84,7 +84,7 @@ app.post("/api/deleteLocationsById", function(req,res){
 			res.send(err);
 		}
 		else{
-			res.send({data:"Cela a bin été supprimé"});
+			res.send({data:"Cela a bien été supprimé"});
 		}
 	})
 })

@@ -79,7 +79,7 @@ app.get("/api/getLocationsByEmail",function(req,res){
 })
 
 app.post("/api/deleteLocationsById", function(req,res){
-	model.remove({ _id: req.body }, function(err) {
+	model.remove({ _id: req.body.id }, function(err) {
 		if(err){
 			res.send(err);
 		}
